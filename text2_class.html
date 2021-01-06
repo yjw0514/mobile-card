@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 모든 요소 */
+        * {margin: 0; padding: 0; box-sizing: border-box;} 
+
+        body { font-family: sans-serif; font-size: 16px; color: black; line-height: 1.4; letter-spacing: 0; font-weight: 400; }
+
+        /* body에 넣었을 때 상속이 되지 않아 div에 넣음 */
+        div {background-repeat: no-repeat; background-position: center center; background-size: cover;}
+
+        h1 { font-family: serif; font-size: 80px; }
+        h2 { font-family: serif; font-size: 50px; }
+        h3 { font-size: 18px; }
+        h4 { font-size: 16px; }
+        p { }
+        a { }
+
+        .hero { width: 100%; height: 100vh; background-image: url(img/visual05.jpg); height: 960px;  padding-top: 300px; }
+
+        .text_align_center { text-align: center;}
+        .color_white { color: white;}
+        .class_point { color: rgb(194,122,52); }
+
+        .margin_bottom_10 { margin-bottom: 10px;}
+        .margin_bottom_20 { margin-bottom: 20px;}
+
+        .value { width: 100%; height: 800px; display: flex; justify-content: center; align-items: center; }
+        .value_textbox { width: 700px; display: flex; flex-direction: column; justify-content: center; padding-left: 100px; }
+        .value_imgbox {background-image: url(img/mi_img01.jpg); height: 500px; width: 800px;}
+    
+    </style>
+</head>
+<body>
+
+    <div style="width: 1820px; height: 100px; display: flex; justify-content: space-between; align-items: center; padding-left: 50px; padding-right:50px;">
+        <a>오늘</a>  
+
+        <div style="width: 800px; height: 100px; display: flex; justify-content: space-between; align-items: center; background-color: sandybrown;">
+        <a>o'neul</a>        
+        <a>Menu</a> 
+        <a>People</a> 
+        <a>Room</a> 
+        <a>Social</a> 
+        <a>Reservation</a>
+        </div> 
+
+        <a>=</a>
+       
+    </div>
+
+    <!-- Hero 컨텐츠-->
+    <div class="hero">
+        <h1 class="text_align_center color_white">Restaurant o'neul</h1>
+        <h3 class="text_align_center color_white">가장 풍요롭고 생생한 시간, 오늘을 주제로 한 전통 한식 다이닝</h3>
+        <p class="text_align_center color_white">Reataurant o'neul is a Korean dining inspired by the most fulfillling and vivid time, 'today'.</p>
+    </div> <!-- Hero 컨텐츠 끝-->
+
+    <!-- Value 컨텐츠-->
+    <div class="value">
+        <div class="value_textbox"> <!-- Value Text-->
+            <h4 class="class_point">Restaurant o'neul</h4>
+            <h2 class="margin_bottom_20">o'nuel Value</h2>
+            <h3 class="margin_bottom_10">
+            레스토랑 오늘에서 선보이는 우리 음식은 <br>
+            한국인의 정체성을 담고 있는 한식에 기반을 두고 있으며, <br>
+            우리 식 문화의 정통성을 지켜나가고 발전시켜 나가기 위해 <br>
+            레스토랑 오늘만의 스타일로 재해석 한 메뉴를 제공합니다. <br>
+            </h3 >
+            <p >
+            o’neul’s dishes are inspired by Korean traditions and techniques.<br>
+            Here we offer our unique understanding of authentic Korean cuisine,<br>
+            introducing its true values through each menu.
+            </p>   
+        </div>
+
+        <div class="value_imgbox"> <!-- Value Img-->
+        </div>
+    </div>  <!-- Value 컨텐츠 끝-->
+
+    <h3>Head Chef</h3>
+    <h2><span>김준식</span> 셰프</h2>
+    <h4>Kim Junsik</h4>
+    <p> 
+    <span style="color: rgb(185, 125, 13);">▪︎</span> 前 쉐라톤그랜드워커힐 레스토랑 헤드쉐프<br>
+    <span style="color: rgb(185, 125, 13);;">▪︎</span> 쉐라톤그랜드워커필 R&D 센터 Sous Chef <br>  
+    <span style="color: rgb(185, 125, 13);;">▪︎</span> Banquet Operation & VVIP Banquet 전담 <br>
+    </p>
+
+
+
+    <div style="display: flex; flex-direction: row; justify-content: center; background-color: rgb(245, 245, 245); padding-top: 100px; padding-bottom: 100px; flex-wrap: wrap;">
+
+        <!-- 작은 이미지는 div안에 flex이용하여 이미지 가운데로 배치 -->
+        <div style="width: 410px; height: 410px; margin-right: 20px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+            <img src="img/mis_insta.png" style="width: 135px;">
+            <div ><a href="www.instagram.com/oneul_restaurant/">www.instagram.com<br>/oneul_restaurant/</a></div>
+        </div>    
+        <img src="img/음식1.jpg" style="width: 410px; height: 410px; margin-right: 20px;">  
+        <img src="img/음식2.jpg" style="width: 410px; height: 410px; margin-right: 20px;"> 
+        <img src="img/음식3.jpg" style="width: 410px; height: 410px; "> 
+    
+        <img src="img/음식4.jpg" style="width: 410px; height: 410px; margin-right: 20px; margin-top: 20px;">  
+        <img src="img/음식5.jpg" style="width: 410px; height: 410px; margin-right: 20px;margin-top: 20px;"> 
+        <img src="img/음식6.jpg" style="width: 410px; height: 410px; margin-right: 20px;margin-top: 20px;"> 
+        <img src="img/오늘디너.jpg" style="width: 410px; height: 410px;margin-top: 20px;"> 
+  
+
+  
+    </div>   
+    
+    
+</body>
+</html>

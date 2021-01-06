@@ -5,7 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        *{margin: 0; padding: 0;}
+        /* 모든 요소 */
+        * {margin: 0; padding: 0;} 
+
+        body { font-family: sans-serif; font-size: 16px; color: black; line-height: 1.2; letter-spacing: 0; font-weight: 400; }
+
+        h1 { font-family: serif; font-size: 80px; }
+        h2 { font-family: serif; font-size: 50px; }
+        h3 { font-size: 22px; }
+        h4 { font-size: 16px; }
+        p { }
+        
+    
     </style>
 </head>
 <body>
@@ -55,7 +66,7 @@
         </div>
     </div> -->
 
-    
+    <!-- flex로 나란히 배열 -->
     <div style="width: 100%; height: 800px; display: flex; justify-content: center; align-items: center; border: 1px solid green ;">
        
         <div style=" width: 700px; display: flex; flex-direction: column; justify-content: center; padding-left: 100px; border: 1px solid pink ; ">
@@ -78,6 +89,37 @@
         </div>
     </div>
 
+    <h3 style="font-family: serif; font-size: 22px; font-weight: 200; color: rgb(211, 133, 31); margin-bottom: 10px;"><del>Head</del> <ins>Super</ins> Chef</h3>
+    <h2 style="font-family: sans-serif; font-size: 34px; font-weight: 300; "><strong>김준식</strong> 셰프</span></h2>
+    <h4 style="font-family: sans-serif; font-size: 22px; font-weight: 350; line-height: 26px;margin-top: 10px; margin-bottom: 20px;">Kim Junsik</h4>
+    <p style="font-family: sans-serif; font-size: 16px; font-weight: 350; line-height: 30px;"> 
+    <span style="color: rgb(185, 125, 13);">▪︎</span> 前 쉐라톤그랜드워커힐 레스토랑 헤드쉐프<br>
+    <span style="color: rgb(185, 125, 13);;">▪︎</span> 쉐라톤그랜드워커필 R&D 센터 Sous Chef <br>  
+    <span style="color: rgb(185, 125, 13);;">▪︎</span> Banquet Operation & VVIP Banquet 전담 <br>
+    </p>
 
+
+
+    <div style="display: flex; flex-direction: row; justify-content: center; background-color: rgb(245, 245, 245); padding-top: 100px; padding-bottom: 100px; flex-wrap: wrap;">
+
+        <!-- 작은 이미지는 div안에 flex이용하여 이미지 가운데로 배치 -->
+        <div style="width: 410px; height: 410px; margin-right: 20px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+            <img src="img/mis_insta.png" style="width: 135px;">
+            <div ><a href="www.instagram.com/oneul_restaurant/">www.instagram.com<br>/oneul_restaurant/</a></div>
+        </div>    
+        <img src="img/음식1.jpg" style="width: 410px; height: 410px; margin-right: 20px;">  
+        <img src="img/음식2.jpg" style="width: 410px; height: 410px; margin-right: 20px;"> 
+        <img src="img/음식3.jpg" style="width: 410px; height: 410px; "> 
+    
+        <img src="img/음식4.jpg" style="width: 410px; height: 410px; margin-right: 20px; margin-top: 20px;">  
+        <img src="img/음식5.jpg" style="width: 410px; height: 410px; margin-right: 20px;margin-top: 20px;"> 
+        <img src="img/음식6.jpg" style="width: 410px; height: 410px; margin-right: 20px;margin-top: 20px;"> 
+        <img src="img/오늘디너.jpg" style="width: 410px; height: 410px;margin-top: 20px;"> 
+  
+
+  
+    </div>   
+    
+    
 </body>
 </html>
