@@ -1,105 +1,113 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>레스토랑 오늘</title>
-    <style>
-        * {margin: 0; padding:0; box-sizing: border-box;}
-
-        body { font-family: 'Noto Sans KR'; font-size: 16px; line-height: 1.5; color: rgb(34, 34, 34); font-weight: 200; letter-spacing: -0.45px; }
-
-        a { text-decoration: none;}
-        a:hover { color: rgb(194, 122, 52);}
-
-        h1 { font-family: 'Montaga'; font-size: 96px; font-weight: 400;  letter-spacing: -1.92px; line-height: 1; color: rgb(255, 255, 255);} 
-
-        h3 { font-family: 'Montserrat', 'Noto Sans KR', sans-serif; font-size: 22px; }
-
-        h4 { font-family: 'Montaga'; font-size: 22px; font-weight: 400; }
-
-        p {font-family: 'Montserrat', sans-serif; font-size: 18px; font-weight: 100; }
-
-        div { background-size: cover; background-repeat: no-repeat; background-position: center center;}
-
-        /* Header part */
-
-        .gnb_wrap { width: 100%; height: 130px; background-color: rgba(255,255,255,0.8); display: flex; justify-content: space-between; padding: 0 2.5%; align-items: center; position: fixed;}
-
-        .gnb_menu_a { padding: 0 43px; height: 100%; font-family: 'Montserrat'; font-size: 22px; letter-spacing: -0.5px; color: rgb(0, 0, 0); line-height: 22px; font-weight: 400;}
-
-        .gnb_logo_img {width: 127.5px;}  
-
-        .gnb_hidden_menu { width: 127.5px; text-align: right;}   
-
-        /* Hero part */
-        .hero_wrap {width: 100%; height: 100vh; background-image: url(img/visual04.jpg); display: flex; justify-content: center; align-items: center; }
-
-        .hero_title  {text-align: center; color: white}
-
-        .margin_b_20 {margin-bottom: 20px;}
-        .margin_b_10 {margin-bottom: 10px;}
-
-        .hero_reservation { width: 230px; height: 70px; border: 1px solid white; color: white; display: flex; justify-content: center; align-items: center; position: fixed; top: 150px; right: 100px;}
-
-        .hero_reservation_img {width: 20px; margin-right: 20px;}
-
-        .hero_reservation_a {color: white;}
-
-    </style>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Mobile Card</title>
+   <style>
+      * {margin: 0; padding: 0; box-sizing: border-box;}
+   </style>
 </head>
 <body>
-    <header>
-       
-        <!-- 데스크탑 화면 GNB -->
-        <div class="gnb_wrap">
+   <!-- here image -->
 
-            <!-- gnb 로고 -->
-            <div class="gnb_logo">
-                <img src="img/logo.png" alt="레스토랑 오늘 로고" class="gnb_logo_img">
-            </div>
+   <div style= "width: 100%; height: 100vh;">
+      <img src="img/main_top_bg.jpg" style="width: 100%;">
+      <h1 style="text-align: center; font-size: 40px; margin-top: 60px; font-family: serif;" title="카드의 제목">우리 결혼합니다</h1>
+      <h2 style="text-align: center; font-size: 30px; color: green;font-family: serif; margin-top: 20px;">05 / 30</h2>
 
-            <!-- gnb 메뉴 -->
-            <div class="gnb_menu"> 
-                <a href="#" class="gnb_menu_a">o'nuel</a>
-                <a href="#" class="gnb_menu_a">Menu</a>
-                <a href="#" class="gnb_menu_a">People</a>
-                <a href="#" class="gnb_menu_a">Room</a>
-                <a href="#" class="gnb_menu_a">Social</a>
-                <a href="#" class="gnb_menu_a">Reservation</a>
-            </div>
-
-            <!-- gnb 히든 메뉴 -->
-            <div class="gnb_hiddenmenu">
-                <img src="img/icon_menu.png" class="gnb_hiddenmenu_btn" alt="히든 메뉴 버튼">
-            </div>
-        </div>
-    </header>
-
-    <main>
-        <!-- Hero -->
-        <div class="hero_wrap">
-            <!-- Hero title-->
-            <div class="hero_title">
-                <h1 class="margin_b_20">Restaurant o'neul </h1>
-                <h3 class="margin_b_10">가장 풍요롭고 생생한 시간, 오늘을 주제로 한 전통 다이닝</h3>
-                <p>Restaurant o'neul is a Korean dining inspired by the most fulfilling and vivid time, 'today'.</p>
-            </div>
-            <!-- Hero reservation-->
-            <div class="hero_reservation">
-                <img src="img/icon_reservation.png" class="hero_reservation_img">
-                <h4><a href="#" class="hero_reservation_a">Reservation</a></h4>
-            </div>
-        </div>
-    </main>
+      <h3 style="text-align: center; font-size: 18px; margin-top: 100px;font-family: serif;">김주원 * 송승이</h3>
+      <h4 style="text-align: center; font-size: 16px;font-family: serif;margin-top: 10px;">2020.05.30 SAT 17:00 PM</h4>
+      <p style="text-align: center; font-size: 16px;font-family: serif;margin-top: 10px;">소풍컨벤션웨딩 7층 라온제나홀</p>
+   </div>
    
+   <div style="width: 100%;  background-color: rgb(251, 251, 251);padding-top: 70px;"> 
+      <img src="img/title_img_1.jpg" style="width: 100%;">  
+      <p style="text-align: center; font-size: 16px; font-family: serif; line-height: 28px; margin-top: 70px;"> 
+         평생을 같이하고 싶은 사람을 만났습니다. <br> 
+         서로 아끼며 이해하고, 사랑하며 살겠습니다. <br>
+         저희 약속 위에 따뜻한 격려로 축복해 주시면 <br> 
+         감사하겠습니다.
+      </P>
+      <img src="img/img1.jpg" style="width: 100%; margin-top: 70px;">
+      <p style="text-align: center; font-size: 16px; font-family: serif; line-height: 20px; margin-top: 70px; "> 신랑에게 축하인사 
+         <img src="img/call25.png" style="margin-left: 20px; margin-right: 10px; height: 20px; "> 
+         <img src="img/sms25.png" style="margin-left: 10px; height: 20px;"> 
+      </p>
+      <p style="text-align: center; font-size: 16px; font-family: serif; line-height: 20px; margin-top: 10px;"> 신부에게 축하인사 
+         <img src="img/call25.png" style="margin-left: 20px; margin-right: 10px; height: 20px; "> 
+         <img src="img/sms25.png" style="margin-left: 10px; height: 20px;"> 
+      </p>  
+   </div>
 
-    <main>
+   <div>
+      <h3 style="margin-top: 70px; text-align: center; font-size: 18px; color:white; font-family: serif; background-color: rgb(99,126,82); line-height: 50px;">혼주분께 연락하기</h3>
+   </div>
 
-    </main>
+   <div style="display: flex; text-align: center; font-size: 16px; padding-top: 60px; padding-bottom: 60px; background-color:rgb(234,241,230);">      
+      <div style="width: 50%;">
+         <p style="line-height: 40px;">신랑측 혼주</p>
+         <p style="line-height: 40px;">아버지 유도기</p>
+         <div>
+            <img src="img/call25.png"> &nbsp;&nbsp;&nbsp;
+            <img src="img/sms25.png">
+         </div>
+         <p style="line-height: 40px;">어머니 이순오</p>
+         <div>
+            <img src="img/call25.png">&nbsp;&nbsp;&nbsp;
+            <img src="img/sms25.png">
+         </div>
+      </div>
+      
+      <div style="width: 50%;">
+         <p style="line-height: 40px;">신부측 혼주</p>
+         <p style="line-height: 40px;">아버지 이중호</p>
+         <div>
+            <img src="img/call25.png">&nbsp;&nbsp;&nbsp;
+            <img src="img/sms25.png">
+         </div>
+         <p style="line-height: 40px;">어머니 고영심</p>
+         <div>
+            <img src="img/call25.png">&nbsp;&nbsp;&nbsp;
+            <img src="img/sms25.png">
+         </div>
+      </div>
 
-    <footer>
+   </div>
 
-    </footer>
+            
+   <div style="width: 100%; height: 100vh; padding-top: 60px;">
+      <img src="img/title_img_4.jpg" style="width:100%;">
+      <img src="img/map.jpg" style="width:100%; margin-top: 60px; display: block;">
+      <p style="text-align: center;background-color:rgb(101,101,101); color: white; line-height: 40px; font-size: 16px;">카카오맵 바로가기</p>
+
+      <p style="padding-top: 40px; padding-bottom: 40px; text-align: center; font-size: 16px; line-height: 28px;">
+         소풍컨벤션웨딩 7층 라온제나홀<br>
+         경기 부천시 송내대로 239<br>
+         032-624-7777<br>
+         <br>
+         버스안내<br>
+         일반 : 5-6, 23-2, 23-5, 37, 50-1, 52,<br>
+         70, 87, 6-2, 56, 59, 59-1, 61, 66<br>
+         <br>
+         자가용안내 <br>
+         "소풍컨벤션웨딩" 검색<br>
+         <br>
+         지하철안내<br>
+         7호선 상동역 - 1번 출구 - 도보2분<br>
+         1호선 송내역 - 2번 출구 - 27번 버스<br>
+      </p>
+
+      <div style="background-color: rgb(200,200,200); display: flex;">
+         <img src="img/btn_facebook.png" style="width: 25%;">
+         <img src="img/btn_twitter.png" style="width: 25%;">
+         <img src="img/btn_kakao.png" style="width: 25%;">
+         <img src="img/btn_story.png" style="width: 25%;">
+      </div>
+      <h2 style="background-color:rgb(101,101,101); color: white; text-align: center; font-size: 26px; line-height: 60px;"> BHANDS CARD</h2>
+      
+   </div>
+
+   
+   
 </body>
 </html>
